@@ -1,9 +1,9 @@
 package client
 
 import (
-	"entity"
-	"sync"
+	"github.com/liuhaogui/nat-ddns/entity"
 	"log"
+	"sync"
 )
 
 type clientChannelService struct {

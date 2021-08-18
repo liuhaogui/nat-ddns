@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 	"log"
-	"entity"
+	"github.com/liuhaogui/nat-ddns/entity"
 )
 
 //客户端秘钥管理

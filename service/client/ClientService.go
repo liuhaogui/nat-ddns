@@ -2,19 +2,19 @@ package client
 
 import (
 	"bufio"
-	"constants"
 	"encoding/json"
-	"entity"
 	"github.com/golang/protobuf/proto"
+	"github.com/liuhaogui/nat-ddns/constants"
+	"github.com/liuhaogui/nat-ddns/entity"
+	"github.com/liuhaogui/nat-ddns/myproto"
+	"github.com/liuhaogui/nat-ddns/util"
+	"github.com/liuhaogui/nat-ddns/util/math"
+	"github.com/liuhaogui/nat-ddns/util/proxy"
+	"github.com/liuhaogui/nat-ddns/util/uuid"
 	"log"
-	"myproto"
 	"net"
 	"strconv"
 	"time"
-	"util"
-	"util/math"
-	"util/proxy"
-	"util/uuid"
 )
 
 type ClientService struct {

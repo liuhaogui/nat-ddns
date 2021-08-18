@@ -1,8 +1,8 @@
 package main
 
 import (
-	"service/client"
 	"flag"
+	"github.com/liuhaogui/nat-ddns/service/client"
 	"log"
 )
 

@@ -2,11 +2,11 @@ package server
 
 import (
 	"encoding/json"
-	"entity"
+	"github.com/liuhaogui/nat-ddns/entity"
+	"github.com/liuhaogui/nat-ddns/util"
 	"log"
 	"net"
 	"strconv"
-	"util"
 )
 
 //代理服务管理

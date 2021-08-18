@@ -4,10 +4,10 @@ import (
 	"bufio"
 	"github.com/golang/protobuf/proto"
 	"io"
-	"myproto"
+	"github.com/liuhaogui/nat-ddns/myproto"
 	"net"
 	"sync"
-	"util/math"
+	"github.com/liuhaogui/nat-ddns/util/math"
 	"log"
 )
 

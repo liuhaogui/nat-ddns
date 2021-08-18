@@ -2,7 +2,7 @@ package main
 
 import (
 	"net"
-	"util/proxy"
+	"github.com/liuhaogui/nat-ddns/util/proxy"
 )
 
 func main()  {

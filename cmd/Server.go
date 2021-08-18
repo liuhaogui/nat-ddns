@@ -1,9 +1,9 @@
 package main
 
 import (
-	"service/server"
-	"fmt"
 	"flag"
+	"fmt"
+	"github.com/liuhaogui/nat-ddns/service/server"
 )
 
 var ss = server.ServerService{}

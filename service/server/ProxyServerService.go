@@ -2,16 +2,16 @@ package server
 
 import (
 	"bufio"
-	"constants"
 	"encoding/json"
-	"entity"
 	"github.com/golang/protobuf/proto"
+	"github.com/liuhaogui/nat-ddns/constants"
+	"github.com/liuhaogui/nat-ddns/entity"
+	"github.com/liuhaogui/nat-ddns/myproto"
+	"github.com/liuhaogui/nat-ddns/util/proxy"
+	"github.com/liuhaogui/nat-ddns/util/uuid"
 	"log"
-	"myproto"
 	"net"
 	"time"
-	"util/proxy"
-	"util/uuid"
 )
 
 // proxy server与client server管理服务

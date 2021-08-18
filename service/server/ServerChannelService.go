@@ -1,7 +1,7 @@
 package server
 
 import (
-	"entity"
+	"github.com/liuhaogui/nat-ddns/entity"
 	"sync"
 	"log"
 )

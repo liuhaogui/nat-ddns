@@ -1,5 +1,7 @@
 # nat-ddns
 
+fork github.com:husthenry/nat-ddns
+
 * 2018-02-15  
 增加心跳机制,断线重连
 
